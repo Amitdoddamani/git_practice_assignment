@@ -1,11 +1,16 @@
-let str="oppo"
-let bag=""
-for(let i=str.length-1;i>=0;i--){
-bag=str[i];
+let num=12
+let count=0
+for(let i=1;i<=num;i++)
+{
+if(num%i==0)
+{
+count++
 }
-if(bag==str){
-console.log(true)
 }
-else{
-console.log(false)
+if(count==1){
+console.log("yes its prime")
+}
+else
+{
+console.log("Not a prime")
 }
